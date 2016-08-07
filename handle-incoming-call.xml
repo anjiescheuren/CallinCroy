@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <Response>
  <Gather action="handle-user-input.php" numDigits="1">
-	 <Say voice="woman" language="en">This is your welcome message to the users</Say>
-	 <Say voice="woman" language="en">To hear the first option, please press 1.</Say>
-	 <Say voice="woman" language="en">To hear the second option, please press 2.</Say>
-	 <Say voice="woman" language="en">To hear the third option, please press 3.</Say>
-	 <Say voice="woman" language="en">To hear the fourth option, please press 4.</Say>
+   <Say voice="alice" language="en-gb">This is the Croy and the Boys Hotline</Say>
+   <Say voice="alice" language="en-gb">To hear the first song, please press 1.</Say>
+   <Say voice="alice" language="en-gb">To hear the second song, please press 2.</Say>
+   <Say voice="alice" language="en-gb">To hear the third song, please press 3.</Say>
  </Gather>
  <!-- If user doesn't input anything, prompt and try again. -->
- <Say>Sorry, I didn't get your response.</Say>
+ <Say voice="alice" language="en-gb">Sorry, I didn't get your response.</Say>
  <Redirect>handle-incoming-call.xml</Redirect>
 </Response>

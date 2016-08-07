@@ -16,7 +16,7 @@
 	}
 	elseif ($user_pushed ==3)
 	{
-		echo '<Play>URL OF YOUR THRD FILE TO PLAY</Play>';
+		echo '<Play>https://www.dropbox.com/sh/accxby1kzr1bw7p/AAAQhTUd0NBYYRU8vRPKR_e7a/Peach%20Kelli%20Pop/Peach%20Kelli%20Pop/03%20Scorpio.mp3</Play>';
 	}
 	else
 	{
