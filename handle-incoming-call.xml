@@ -8,5 +8,5 @@
  </Gather>
  <!-- If user doesn't input anything, prompt and try again. -->
  <Say voice="alice" language="en-gb">Sorry, I didn't get your response.</Say>
- <Redirect>handle-incoming-call.php</Redirect>
+ <Redirect>handle-user-input.php</Redirect>
 </Response>
