@@ -23,7 +23,7 @@
 	else
 	{
 		echo "<Say>Sorry, I can't do that yet.</Say>";
-		echo '<Redirect>handle-incoming-call.xml</Redirect>';
+		echo '<Redirect>handle-user-input.php</Redirect>';
 	}
 	echo '</Response>';
 ?>
