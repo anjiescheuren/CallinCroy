@@ -44,6 +44,8 @@ $release_version = '3.13.1';
 $release_state   = 'stable';
 $release_notes   = 'Add TaskRouter support';
 
+require '/path/to/twilio-php/Services/Twilio.php';
+
 $description = <<<DESC
 A SDK (or helper library, as we're calling them) for PHP developers to write
 applications against Twilio's REST API and generate TwiML responses.
