@@ -10,7 +10,7 @@
 
 	if ($user_pushed == 1)
 	{
-		echo '<Play>https://soundcloud.com/bigbabydram/broccoli</Play>';
+		echo '<Play>https://api.twilio.com/cowbell.mp3</Play>';
 	}
 	elseif ($user_pushed == 2)
 	{
