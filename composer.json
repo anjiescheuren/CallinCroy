@@ -1,6 +1,7 @@
 {
   "name": "anjiescheuren/callin-croy",
   "require": {
-        "monolog/monolog": "1.0.*"
+        "monolog/monolog": "1.0.*",
+    "twilio/sdk": "^4.10"
     }
 }

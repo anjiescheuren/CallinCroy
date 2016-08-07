@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit01afb79a589936313ebf509f5093a49b
 {
+    public static $files = array (
+        'bccfaf6207f67190a92f35585e9a78b2' => __DIR__ . '/..' . '/twilio/sdk/Services/Twilio.php',
+    );
+
     public static $prefixesPsr0 = array (
         'M' => 
         array (
