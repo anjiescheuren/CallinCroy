@@ -18,10 +18,6 @@
 	{
 		echo '<Play>URL OF YOUR THRD FILE TO PLAY</Play>';
 	}
-	elseif ($user_pushed ==4)
-	{
-		echo '<Play>URL OF YOUR FORTH FILE TO PLAY</Play>';
-	}
 	else
 	{
 		echo "<Say>Sorry, I can't do that yet.</Say>";
