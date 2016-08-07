@@ -1,12 +1,12 @@
-# Callin' Oates
+# Callin' Croy
 
 The inital (slightly modified) codebase for Callin' Oates
 
 ## See it work
 
-Dial this number - 1-719-26-OATES
+Dial this number - 1-xxx-xx-CROY
 Or 
-go to the [website](http://www.callinoates.com).
+go to the [website](http://www.callincroy.com).
 
 ## Files
 
