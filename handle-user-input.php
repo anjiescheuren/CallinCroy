@@ -10,15 +10,15 @@
 
 	if ($user_pushed == 1)
 	{
-		echo '<Play>https://api.twilio.com/cowbell.mp3</Play>';
+		echo '<Play>https://callin-croy.herokuapp.com/lemonlime.mp3</Play>';
 	}
 	elseif ($user_pushed == 2)
 	{
-		echo '<Play>https://www.dropbox.com/sh/accxby1kzr1bw7p/AAAQhTUd0NBYYRU8vRPKR_e7a/Peach%20Kelli%20Pop/Peach%20Kelli%20Pop/02%20Dreamphone.mp3</Play>';
+		echo '<Play>https://callin-croy.herokuapp.com/Dreamphone.mp3</Play>';
 	}
 	elseif ($user_pushed ==3)
 	{
-		echo '<Play>https://www.dropbox.com/sh/accxby1kzr1bw7p/AAAQhTUd0NBYYRU8vRPKR_e7a/Peach%20Kelli%20Pop/Peach%20Kelli%20Pop/03%20Scorpio.mp3</Play>';
+		echo '<Play>https://callin-croy.herokuapp.com/lemonlime.mp3</Play>';
 	}
 	else
 	{
@@ -36,22 +36,17 @@
   switch ($digitPushed) {
     case "1":
   ?>
-    <Play>#Your Ngrok Forwarding URL #/TakingBackSunday.mp3</Play>
+    <Play>https://callin-croy.herokuapp.com/lemonlime.mp3</Play>
   <?php
       break;
     case "2":
   ?>
-    <Play>#Your Ngrok Forwarding URL #/BrandNew.mp3</Play>
+    <Play>https://callin-croy.herokuapp.com/Dreamphone.mp3</Play>
   <?php
       break;
     case "3":
   ?>
-    <Play>#Your Ngrok Forwarding URL #/SavesTheDay.mp3</Play>
-  <?php
-      break;
-    case "4":
-  ?>
-    <Play>#Your Ngrok Forwarding URL #/SayAnything.mp3</Play>
+    <Play>https://callin-croy.herokuapp.com/lemonlime.mp3</Play>
   <?php
       break;
     default:
