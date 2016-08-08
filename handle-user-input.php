@@ -51,7 +51,7 @@
       break;
     default:
   ?>
-    <Redirect>incoming-call.xml</Redirect>
+    <Redirect>https://callin-croy.herokuapp.com/handle-incoming-call.xml</Redirect>
   <?php
       break;
   }
