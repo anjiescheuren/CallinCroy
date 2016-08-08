@@ -10,19 +10,19 @@
 
 	if ($user_pushed == 1)
 	{
-		echo '<Play>https://callin-croy.herokuapp.com/modernlove.mp3</Play>';
+		echo '<Play>https://callin-croy.herokuapp.com/lemonlime.mp3</Play>';
 	}
 	elseif ($user_pushed == 2)
 	{
-		echo '<Play>https://callin-croy.herokuapp.com/thirdofthetime.mp3</Play>';
+		echo '<Play>https://callin-croy.herokuapp.com/Dreamphone.mp3</Play>';
 	}
 	elseif ($user_pushed ==3)
 	{
-		echo '<Play>https://callin-croy.herokuapp.com/worldwaiting.mp3</Play>';
+		echo '<Play>https://callin-croy.herokuapp.com/lemonlime.mp3</Play>';
 	}
 	else
 	{
-		echo "<Say voice="alice" language="en-gb">Sorry, I can't do that yet.</Say>";
+		echo "<Say>Sorry, I can't do that yet.</Say>";
 		echo '<Redirect>handle-incoming-call.php</Redirect>';
 	}
 	echo '</Response>';
@@ -51,7 +51,7 @@
       break;
     default:
   ?>
-    <Redirect>https://callin-croy.herokuapp.com/handle-incoming-call.xml</Redirect>
+    <Redirect>incoming-call.xml</Redirect>
   <?php
       break;
   }
