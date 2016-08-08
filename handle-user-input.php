@@ -23,7 +23,7 @@
 	else
 	{
 		echo "<Say voice="alice" language="en-gb">Sorry, I can't do that yet.</Say>";
-		echo '<Redirect>https://callin-croy.herokuapp.com/handle-incoming-call.xml</Redirect>';
+		echo '<Redirect>https://callin-croy.herokuapp.com/handle-incoming-call.php</Redirect>';
 	}
 	echo '</Response>';
 ?>
