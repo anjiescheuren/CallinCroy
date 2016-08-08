@@ -36,17 +36,17 @@
   switch ($digitPushed) {
     case "1":
   ?>
-    <Play>https://callin-croy.herokuapp.com/lemonlime.mp3</Play>
+    <Play>https://callin-croy.herokuapp.com/modernlove.mp3</Play>
   <?php
       break;
     case "2":
   ?>
-    <Play>https://callin-croy.herokuapp.com/Dreamphone.mp3</Play>
+    <Play>https://callin-croy.herokuapp.com/thirdofthetime.mp3</Play>
   <?php
       break;
     case "3":
   ?>
-    <Play>https://callin-croy.herokuapp.com/lemonlime.mp3</Play>
+    <Play>https://callin-croy.herokuapp.com/worldwaiting.mp3</Play>
   <?php
       break;
     default:
