@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <Response>
-   <Gather action="/handle-user-input.php" methon="GET" numDigits="1">
-     <Play loop="1">/croyboys.mp3</Play>
+  <Say voice="alice" language="en-en">This is the Croy and the Boys Hotline</Say>
+   <Gather action="/handle-user-input.php" methon="POST" numDigits="1">
      <Say voice="alice" language="en-gb">To hear the first song, please press 1.</Say>
      <Say voice="alice" language="en-gb">To hear the second song, please press 2.</Say>
      <Say voice="alice" language="en-gb">To hear the third song, please press 3.</Say>
