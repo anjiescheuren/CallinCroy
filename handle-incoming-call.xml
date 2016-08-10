@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <Response>
-  <Play>https://callin-croy.herokuapp.com/intro.mp3</Play>
   <!-- <Say voice="alice" language="en-en">This is the Croy and the Boys Hotline</Say> -->
    <Gather action="https://callin-croy.herokuapp.com/handle-user-input.php" methon="POST" numDigits="1">
+    <Play>https://callin-croy.herokuapp.com/intro.mp3</Play>
      <!-- <Say voice="alice" language="en-en">To hear Woke Up In Love, please press 1.</Say>
      <Say voice="alice" language="en-en">To hear Hey Come Back, please press 2.</Say>
      <Say voice="alice" language="en-en">To hear Leavings The Last Thing, please press 3.</Say> -->
